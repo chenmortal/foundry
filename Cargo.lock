@@ -75,8 +75,7 @@ checksum = "683d7910e743518b0e34f1186f92494becacb047c7b6bf616c96772180fef923"
 [[package]]
 name = "alloy-chains"
 version = "0.1.57"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4ab9d1367c6ffb90c93fb4a9a4989530aa85112438c6f73a734067255d348469"
+source = "git+https://github.com/chenmortal/chains.git?branch=v0.1.57-dev#0c8d877baaee9134a68c64f669818a2064045b55"
 dependencies = [
  "alloy-primitives",
  "num_enum",
@@ -232,8 +231,7 @@ dependencies = [
 [[package]]
 name = "alloy-json-rpc"
 version = "0.9.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2008bedb8159a255b46b7c8614516eda06679ea82f620913679afbd8031fea72"
+source = "git+https://github.com/chenmortal/alloy.git?branch=0.9.2-dev#ac2a9b1740b5d2cbd381e829c930a9bc08ee2f86"
 dependencies = [
  "alloy-primitives",
  "alloy-sol-types",
